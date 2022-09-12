@@ -75,3 +75,44 @@ Nous allons créer deux tableaux de longueur quatre : un pour chaque chaîne de 
 Nous allons ensuite parcourir en boucle les deux chaînes de caractères et mettre à jour leurs compteurs respectifs.
 
 Nous comparons ensuite les deux compteurs pour voir si les deux chaînes sont des anagrammes et, si c'est le cas, nous imprimons "Anagramme". Si ce n'est pas le cas, nous afficherons "Pas d'anagramme !".
+
+
+### Challenge 7 :
+
+Créez une fonction add(int a , int b) qui permet de faire l'addition des deux nombres a et b.
+
+### Challenge  8 :
+
+Créez une fonction echanger() pour échanger la valeur de a avec la valeur de b, qu'est ce que vous constatez ? 
+
+### Challenge 9 :
+
+Créez une fonction bool isPremier() pour vérifier si un nombre il est premier ou non (constatez que le type de la fonction est bool, donc vous devez créez votre type Bool).
+
+### Challenge 10 :
+
+Créez une fonction divededby(int n,int a) qui retoune la division des deux valeurs. Utilisez la fonction dividedby() pour contrôler si le nombre est premier en retourne true, sinon on retourne false.
+
+### Challenge 11 : Année Bissextile
+
+1. Au-dessus de la fonction main(), créez une fonction appelée is_leap_year() avec un retour de type bool qui permet de dire une année est bissextile ou non. (Une année bissextile doit être divisible par 4 et NON divisible par 100, sauf si l'année est divisible par 400).
+2. Tester la fonction : 
+    1. Dans la fonction main(), créez une nouvelle variable de type int appelée year.
+    2. Invitez l'utilisateur à saisir une année entre 1800 et 10000. Il s'agit simplement de choisir une plage appropriée impliquant des années bissextiles avec lesquelles travailler et revoyez la réponse en utilisant la fonction implementée.
+
+## Challenge 12 : implémenter la fonction strcpy()
+
+La fonction strcpy() est utilisée pour copier une chaîne de caractères dans une autre. strcpy() nécessite deux chaînes de caractères : une chaîne source et une chaîne de destination. Elle copiera le contenu de la chaîne source dans la chaîne de destination.
+
+Dans ce projet, vous allez améliorer votre compréhension de cette fonction en mettant en œuvre sa fonctionnalité. Vous verrez comment strcpy() fonctionne "sous le capot".
+
+Créez une fonction appelée `copy` qui je le même rôle que `strcpy()`. Pour ce faire, vous utiliserez vos connaissances sur les pointeurs.
+
+Notez que :
+
+- une chaîne de caractères est un tableau de type char.
+- Un tableau peut être parcouru à l'aide d'un pointeur. Un pointeur sur un tableau (ou une chaîne de caractères) pointe initialement sur le premier élément (ou caractère) du tableau (chaîne de caractères).
+
+## Challenge 13 :
+
+Ecrivez un programme pour stocker et imprimer le numéro de matricule, le nom, l'âge et les notes d'un étudiant en utilisant des structures.
