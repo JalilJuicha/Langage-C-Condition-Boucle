@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-int add()
+int add();
 
 int	main()
 {
